@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSansBold;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: MontserratBold;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: DomineBold;
+    src: url(../fonts/Domine-Bold.ttf);
+}
+
+body {
+    font-size: 14px;
+    width: 100%;
+}
+header {
+    height: 1055px;
+    background: url("../img/header-back.png") repeat-x 0 0;
+    background-size: cover;
+}
+.container {
+    width: 940px;
+    max-width: 940px;
+    margin: 0 auto;
+    text-align: left;
+}
+.header-top {
+    height: 70px;
+}
+.logo {
+    position: relative;
+    float: left;
+}
+.logo span {
+    color: #000000;
+}
+.logo a {
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    font-family: "DomineBold";
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.social-networks {
+    float: right;
+    margin-top: 25px;
+}
+.twitter {
+    margin-right:20px;
+}
+.main-menu {
+    float: right;
+    margin-top: 25px;
+}
+.main-menu li {
+    display: inline;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+.main-menu li a {
+    text-decoration: none;
+    color: #263742;
+    font-family: "Montserrat";
+}
+.main-menu li a:hover {
+    color: #fa5c65;
+    border-bottom: 2px solid #fa5c65;
+}
+.header-top::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.promo {
+    width: 540px;
+    margin-top: 31.9%;
+    color: #314a5b;
+}
+.red {
+    color: #fa5c65;
+}
+.promo-title {
+    font-family: "MontserratBold";
+    text-transform: uppercase;
+    font-size: 48px;
+}
+.promo-text {
+    font-family: "OpenSans";
+    font-size: 20px;
+    margin-top: 15px;
+}
+.promo-btn {
+    display: inline-block;
+    color: white;
+    font-family: "OpenSansBold";
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    background: #fa5c65;
+    border: 1px solid #fa5c65;
+    border-radius: 10px;
+    padding: 20px 35px;
+    margin: 35px 0;
+}
+.features {
+    height: 300px;
+}
+.feature-item {
+    float: left;
+    width: 27.6%;
+    margin-top: 80px;
+    margin-right: 60px;
+}
+.feature-item:last-child {
+    margin-right: 0;
+}
+.feature-title {
+    font-family: "MontserratBold";
+    text-transform: uppercase;
+    font-size: 26px;
+    color: #465065;
+}
+.feature-text {
+    font-family: "OpenSans";
+    font-size: 15px;
+    color: #a2a7b1;
+    margin: 20px 0;
+}
+.more {
+    display: inline-block;
+    font-family: "Montserrat";
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fa5c65;
+}
+.more img {
+    margin-left: 5px;
+}
+.features .container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.portfolio {
+    height: 405px;
+}
+.portfolio-left {
+    display: inline-block;
+    float: left;
+    width: 45.1%;
+    height: auto;
+}
+.portfolio-right {
+    float: right;
+    width: 38.2%;
+    margin-top: 7.7%;
+    margin-right: 8.5%;
+}
+.portfolio .container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.portfolio-title {
+    font-family: "MontserratBold";
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #314a5b;
+}
+.portfolio-small {
+    font-family: "OpenSans";
+    font-size: 16px;
+    color: #314a5b;
+    margin: 10px 0 25px;
+}
+.portfolio-text1, .portfolio-text2 {
+    font-family: "OpenSans";
+    font-size: 15px;
+    color: #a2a7b1;
+}
+.portfolio-text2 {
+    margin: 25px 0 35px;
+}
+.team {
+    height: 390px;
+}
+.team-title {
+    margin-top: 45px;
+    font-family: "MontserratBold";
+    text-transform: uppercase;
+    color: #314a5b;
+    font-size: 32px;
+}
+.team-text {
+    margin-bottom: 25px;
+    font-family: "OpenSans";
+    font-size: 16px;
+    color: #a2a7b1;
+}
+.team-item {
+    float: left;
+    width: 30.9%;
+}
+.team-item img {
+    float: left;
+}
+.team-item:nth-child(even) {
+    margin: 0 20px;
+}
+.info {
+    float: right;
+    width: 150px;
+}
+.team-item  .container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.team .container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.item-name {
+    margin-top: 10px;
+    font-family: "MontserratBold";
+    text-transform: uppercase;
+    color: #314a5b;
+    font-size: 22px;
+}
+.item-job {
+    font-family: "OpenSans";
+    color: #fa5c65;
+}
+.item-about {
+    margin-top: 10px;
+    font-family: "OpenSans";
+    color: #9aa0ab;
+}
+.team .more {
+    float: right;
+    margin-top: 50px;
+}
+footer {
+    height: 90px;
+}
+footer .container {
+    border-top: 1px solid #e6eaed;
+}
+.social-icons {
+    margin-top: 30px;
+    float: left;
+}
+.social-icons img {
+    margin-right: 20px;
+}
+.copyrights {
+    margin-top: 30px;
+    float: right;
+    font-family: "OpenSans";
+    font-size: 13px;
+    color: #9aa0ab;
+}
+footer .container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+@media (max-width: 1044px){
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 989px){
+    header {
+        height: 100%;
+    }
+    .team {
+        height: auto;
+    }
+    .team-item, .team-item:nth-child(even) {
+        float: none;
+        width: 50%;
+        margin: 0 auto;
+        height: 150px;
+    }
+    .team-title {
+        text-align: center;
+        margin: 45px auto 0;
+    }
+    .team-text {
+        text-align: center;
+        margin: 0 auto 25px;
+    }
+    .team .more {
+        display: block;
+        text-align: center;
+        float: none;
+        margin: 50px auto 60px;
+    }
+}
+
+@media (max-width: 800px){
+    .container {
+        width: 80%;
+    }
+    .promo-title {
+        font-size: 38px;
+        width: 400px;
+    }
+    .features {
+        height: auto;
+    }
+    .feature-item, .feature-item:last-child {
+        float: none;
+        width: 50%;
+        margin: 80px auto;
+        height: 170px;
+    }
+    .portfolio-right {
+        width: 48.3%;
+        margin-top: 30px;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 689px){
+    .container {
+        width: 90%;
+    }
+    .header-top {
+        height: auto;
+    }
+    .logo {
+        position: relative;
+        float: none;
+        margin: 0 auto;
+        width: 140px;
+    }
+    .social-networks {
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        float: none;
+        margin: 0 auto;
+        width: 100px;
+    }
+    .main-menu {
+        float: none;
+        margin: 25px auto;
+        width: 360px;
+    }
+    .main-menu li:last-child {
+        margin-right: 0;
+    }
+    .portfolio-title {
+        font-size: 32px;
+
+    }
+}
+
+@media (max-width: 635px){
+    .team-item, .team-item:nth-child(even), .feature-item, .feature-item:last-child, .portfolio-right, .promo {
+        width: 90%;
+    }
+    .promo {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .promo-title {
+         font-size: 32px;
+     }
+    .promo-text {
+        font-size: 16px;
+    }
+    .promo-btn {
+        font-size: 12px;
+    }
+    .portfolio-left {
+        height: 0;
+        overflow: hidden;
+    }
+    .portfolio-right {
+        float: none;
+        margin: 0 auto;
+    }
+    footer {
+        height: auto;
+    }
+    .social-icons {
+        margin: 30px auto 0;
+        float: none;
+        width: 160px;
+    }
+    .copyrights {
+        margin: 30px auto 0;
+        float: none;
+        width: 300px;
+    }
+}
