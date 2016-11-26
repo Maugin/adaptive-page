@@ -344,7 +344,7 @@ footer .container::after {
     }
 }
 
-@media (max-width: 689px){
+@media (max-width: 740px){
     .container {
         width: 90%;
     }
